@@ -1,4 +1,5 @@
 
+### CHnage the OLED display
 
 The OLED can be changed if you wish.   There are 45 example scripts for the OLED display already on the device.   
 They are located at `/home/pi/luma.examples/examples`    
@@ -10,7 +11,11 @@ For example to use the `bitstamp_ticker.py` script:
 `python bitstamp_ticker.py`  
 
 The OLED display will then display the Bitcoin ticker script on the OLED display.  
-This will display the script on the OLED display until reboot.   If you want it to be permanent simply add the scripts name and path to the `.service` file.  
+This will display the script on the OLED display until reboot.   
+
+### Make the change permanent  
+
+If you want it to be permanent simply add the scripts name and path to the `.service` file.  
 
 Edit the `.service` file
 `sudo nano /etc/systemd/system/minitower_oled.service`
