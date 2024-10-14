@@ -4,7 +4,7 @@
 The device can be easily updated/upgraded using the standard Kali update/upgrade commands.  
 
 `sudo apt update`  
-`sudo apt upgrade -y` 
+`sudo apt full-upgrade -y` 
 
 After this the system is fully updated.  
 
