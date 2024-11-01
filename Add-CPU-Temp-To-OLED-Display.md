@@ -6,8 +6,8 @@
 To use this script, on the MiniTower.
 1. Git the new script, make it executable, then copy it over to the correct directory:
 ```
-git clone https://github.com/cryptomiles-dev/Parrot-Security-MiniTower.git
-cd Parrot-Security-MiniTower
+git clone https://github.com/cryptomiles-dev/Kali_MiniTower.git
+cd Kali_MiniTower
 chmod +x sysinfo-net-w-temp.py
 sudo cp sysinfo-net-w-temp.py /usr/local/minitower
 ```
@@ -33,7 +33,7 @@ Just to be certain make sure it is enabled (starts at boot)
 
 If you do not want the whole repo and only want the CPU temperature python script then you can download just the CPU temperature python script using `wget`.  To do this replace step 1. with the following:  
 ```  
-wget https://raw.githubusercontent.com/cryptomiles-dev/Parrot-Security-MiniTower/refs/heads/main/sysinfo-net-w-temp.py   
+wget https://raw.githubusercontent.com/cryptomiles-dev/Kali_MiniTower/refs/heads/main/sysinfo-net-w-temp.py   
 chmod +x sysinfo-net-w-temp.py
 sudo cp sysinfo-net-w-temp.py /usr/local/minitower
 ```
