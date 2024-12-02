@@ -29,10 +29,10 @@ In this guide we will install Java 23 arm64 binaries from BellSoft so we can the
 `java --version`  
 
 8. Install Burp Suite CE  
-`sudo apt install burpsuite`
+`sudo apt install -y burpsuite`
 
 9. Reboot:  
-`sudo reboot`.  
+`sudo reboot`  
 
 You shoud now have Burp Suite CE installed and it can be launched from the desktop.
 
