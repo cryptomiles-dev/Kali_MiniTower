@@ -17,6 +17,7 @@ If NTP is enabled you will see `NTP service: active`
 NTP works by querying your Raspberry Pi to time servers over the internet. These servers   
 provide highly accurate time based on atomic clocks. NTP ensures that your device continuously has the correct time.    
 
+**NOTE:** You only have to choose one of the options below.  enable NTP using a script, enable NTP with commands, or change settings with commands reguarly.  Choose 1 method.  
 #### Enable NTP Using The Script  
 
 I have provided a script to enable NTP if you want to use it.   It is located  
