@@ -1,8 +1,15 @@
 
+
+# Restore MiniTower Image  
+
+Included on the USB drive is a copy of the original image the device shipped with.   If you want to revert back to how the device was when you first got it then flash the MicroSd card (or other MicroSd card at least 32GB).
+
+To do this you can use Raspberry Pi Imager from a Windows or Mac computer, or use the any Linux distribution.  
+
 ## Restore MiniTower to it's original state
 
-Included on the included USB drive is a copy of the MiniTower image.  `Kali-MiniTower.img.xz`  
-
+**NOTE** In this guide I use `Kali-MiniTower.img.xz` but the image you recieve may have a slightly different name.    
+If the restore image you recived has a different name then in the commands below replace `Kali-MiniTower.img.xz` with the name of your restore image (make sure to include the `.img.xz` extension)   
 If you want to restore the MiniTower back to the way the device was when you first got it you can flash the included image onto the 32GB MicroSd card (or other MicroSd card at least 32GB).
 To do this you can use Raspberry Pi Imager from a Windows or Mac computer, or use the any Linux distribution.  
 
