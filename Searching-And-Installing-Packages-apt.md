@@ -4,7 +4,7 @@
 
 ---
 
-## **Step 1: Update Your Package Index**
+## Step 1: Update Your Package Index  
 
 Before installing or searching for packages, update your system’s package index to ensure you have the latest information about available packages.
 
@@ -18,7 +18,7 @@ If you also want to upgrade your existing packages, use:
 
 ---
 
-## **Step 2: Search for Packages**
+## Step 2: Search for Packages  
 
 To find a package, use the `apt search` command followed by the package name or a keyword.
 
@@ -37,9 +37,6 @@ This will display a list of available packages with "wireshark" in their name or
 To see detailed information about a package, use:
 
 `apt show <package-name>`
-### Example:
-
-`apt show wireshark`
 
 This will display details such as the package's description, dependencies, and size.
 
@@ -51,12 +48,6 @@ Once you know the package name, install it using:
 
 `sudo apt install <package-name>`
 
-### Example:
-
-To install Wireshark, run:
-
-`sudo apt install wireshark`
-
 When prompted, confirm the installation by typing `Y` and pressing Enter.
 
 ---
@@ -67,19 +58,13 @@ If you need to uninstall a package, use:
 
 `sudo apt remove <package-name>`
 
-### Example:
-
-To remove Wireshark, run:
-
-`sudo apt remove wireshark`
-
 If you want to remove configuration files as well, use:
 
 `sudo apt purge <package-name>`
 
 ---
 
-## **Step 6: Clean Up Unused Packages (Optional)**
+## Step 6: Clean Up Unused Packages (Optional)
 
 After removing a package or upgrading your system, you can clean up unused packages to free up space:
 
