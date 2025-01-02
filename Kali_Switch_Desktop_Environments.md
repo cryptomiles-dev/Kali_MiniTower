@@ -1,7 +1,10 @@
 
 
 
-### 1. **Install the Desktop Environments (if not already installed)**
+### Install the Desktop Environments (if not already installed)  
+
+You can check which desktops are installed with:  
+`apt list --installed | grep kali-desktop`  
 
 By default, Kali comes with **Xfce** as the main desktop environment, but you may need to install other environments like **KDE Plasma** or **GNOME** if they weren’t part of your initial installation.
 
@@ -20,7 +23,7 @@ sudo apt install kali-desktop-gnome
 ```
 After installation, you’ll be able to choose between them at the login screen.
 
-### 2. **Switch Between Desktop Environments at Login**
+### Switch Between Desktop Environments at Login  
 
 Once you have the additional desktop environments installed, switching between them is quite simple. Here’s how to do it:
 
@@ -36,7 +39,7 @@ Once you have the additional desktop environments installed, switching between t
 
 The next time you log in, it will remember the desktop environment you selected, so you won’t need to choose it again unless you want to switch.
 
-### 3. **Switching Desktop Environments from the Command Line (without logging out)**
+### Switching Desktop Environments from the Command Line (without logging out)  
 
 If you’re already logged in and want to start a new desktop environment **without logging out**, you can switch the session by running the following command in the terminal:
 ```
@@ -49,7 +52,7 @@ sudo service lightdm start  # To switch to Xfce or other environments
 
 However, this method is less common, and the graphical method (logging out and selecting a session) is recommended for ease of use.
 
-### 4. **Setting a Default Desktop Environment (Optional)**
+### Setting a Default Desktop Environment (Optional)
 
 If you prefer one desktop environment to always be the default when you log in (and don’t want to manually select it every time), you can set your default environment by configuring the display manager.
 
