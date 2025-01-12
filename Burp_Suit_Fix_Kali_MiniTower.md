@@ -36,7 +36,7 @@ In this guide we will install Java 23 arm64 binaries from BellSoft so we can the
 
 You shoud now have Burp Suite CE installed and it can be launched from the desktop.
 
-10. [optional] Prevent future updates from possibly reverting Java back:  
+10. **optional** Prevent future updates from possibly reverting Java back:  
 `sudo update-alternatives --set java /usr/lib/jvm/bellsoft-java23-aarch64/bin/java`  
 
 
