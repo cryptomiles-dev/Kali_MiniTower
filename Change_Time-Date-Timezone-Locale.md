@@ -35,29 +35,29 @@ Then reboot `sudo reboot`
 Enter the following commands one at a time then press enter:  
 
 ```
-sudo timedatectl set-ntp true
-sudo systemctl enable systemd-timesyncd
-sudo systemctl start systemd-timesyncd
+sudo timedatectl set-ntp true   
+sudo systemctl enable systemd-timesyncd   
+sudo systemctl start systemd-timesyncd    
 ```
 
 Verify NTP service:  
 `timedatectl status`  
 
-### Change Time/Date Settings Manually  
+### Change Time/Date Settings Manually     
 
-You can change the time, date, timezone, keyboard country, etc individually using the commands below.  
+You can change the time, date, timezone, keyboard country, etc individually using the commands below.     
 
-- List available timezones:
+- List available timezones:   
 `timedatectl list-timezones`
-- Set the timezone (e.g., for New York, use `America/New_York`):
+- Set the timezone (e.g., for New York, use `America/New_York`):   
 `sudo timedatectl set-timezone America/New_York`
-- Verify the timezone change:  
+- Verify the timezone change:     
 `timedatectl status`  
 
-- Change Keyboard Locale  
+- Change Keyboard Locale    
 `sudo nano /etc/default/keyboard`
 
-In Linux the standard keyboard layout used in the USA is called pc105 / us  
+In Linux the standard keyboard layout used in the USA is called pc105 / us    
 
 ```
 # KEYBOARD CONFIGURATION FILE
