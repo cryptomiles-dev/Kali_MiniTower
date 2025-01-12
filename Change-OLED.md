@@ -16,7 +16,7 @@ This will display the script on the OLED display until reboot.
 ### Make the change permanent  
 
 If you want it to be permanent simply add the scripts name and path to the `.service` file.  
-
+    
 Edit the `.service` file   
 `sudo nano /etc/systemd/system/minitower_oled.service`  
 The line that needs to be edited which controls the OLED script at boot is:  
