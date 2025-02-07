@@ -6,7 +6,7 @@
 To use this script, on the MiniTower.
 1. Git the new script, make it executable, then copy it over to the correct directory:
 ```
-wget https://raw.githubusercontent.com/cryptomiles-dev/Kali_MiniTower/refs/heads/main/Scripts/sysinfo-net-w-temp.py  
+wget https://gist.githubusercontent.com/cryptomiles-dev/e41f34a4be8c5f23b92e13b6b4d2436a/raw/f99957922f220af22dda0957de58af470ae3b202/sysinfo-net-w-temp.py  
 chmod +x sysinfo-net-w-temp.py  
 sudo cp sysinfo-net-w-temp.py /usr/local/minitower  
 ```
